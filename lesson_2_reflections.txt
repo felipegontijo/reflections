@@ -15,3 +15,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 	Branches are useful when we want to experiment with adding a new feature, or create a different "instance" of the project which behaves differently.
 	Branches help because they make it easy for us to know where each instance of our project is and where we need to go to to find something. It also enhances the adding/removing functionality process, and makes debugging easy and more straigth-forward. Branches also make it visual to see what each part of our project does and where it is.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams are good because they provide a "picture" of the commit history, making it easier to identify branches and how they relate with each other and with master.
