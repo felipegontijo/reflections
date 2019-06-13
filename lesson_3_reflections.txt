@@ -20,3 +20,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	The local copy is particularly important when working on a project that has other collaborators, because knowing the last known state of the remote will inform you if people have commited things to the remote which you haven't synced into your local yet.
 	Additionally, it informs whether you have made local changes/commits that the remote isn't aware of.
 	In both cases, having a local copy of the remote's last known state provides you with information on whether there is a need to perform a push or a pull, basically.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	It would be incredibly hard to collaborate without Git or GitHub. Relying on zip files and email hurts only by thinking about it, and I am grateful there is something like Git and GitHub out there.
+	The only benefits I can see of not using Git would be not having to learn it at all lol. Other than that, using Git is highly benefitial.
