@@ -13,3 +13,10 @@ Describe the differences between forks, clones, and branches. When would you use
 	Clone is used to simply copy a repository -- either online to local, or local to local.
 
 	Branches are created within the same repository, and are nothing more than a label for a set of commits to come in the same context -- i.e., a new feature, trying out some functionality or improvements, etc. Branches are useful when you don't want to compromise the major branch (master), which is in theory the place for everything to be working properly. Then, creating additional branches are the way to go to test out and implement new features and functionality.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Having a local copy of the last known state of the remote is helpful in because it lets you know if there have been any changes in the remote ever since you last synced, i.e., changes you are "not aware of".
+	The local copy is particularly important when working on a project that has other collaborators, because knowing the last known state of the remote will inform you if people have commited things to the remote which you haven't synced into your local yet.
+	Additionally, it informs whether you have made local changes/commits that the remote isn't aware of.
+	In both cases, having a local copy of the remote's last known state provides you with information on whether there is a need to perform a push or a pull, basically.
