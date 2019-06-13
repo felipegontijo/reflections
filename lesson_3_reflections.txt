@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-  I would use a remote repository whenever there were more people other than me contributing to my project.
+	I would use a remote repository whenever there were more people other than me contributing to my project.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Having changes being pulled automatically may compromise an ongoing work. The whole idea behind version control is for one to have control over what is synced, and when it is synced. Doing so automatically may generate confusion, and perhaps cause unwanted behavior.
